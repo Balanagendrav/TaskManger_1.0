@@ -1,0 +1,27 @@
+.card {
+    background: white;
+    padding: 12px;
+    margin: 3px 0px;
+    border-radius: 8px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+  }
+  .card-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid rgb(45, 156, 230);
+    padding:5px 10px 5px 10px;
+    border-radius:10px;
+    margin:0px 0px 5px 0px;
+  }
+  .card-description{
+    width: 70%;
+    text-align: center;
+  }
+  .card-content-header{
+    display: flex;
+    justify-content: space-between;
+    /* width:95%; */
+  }
